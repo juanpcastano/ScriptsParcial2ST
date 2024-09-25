@@ -1,0 +1,10 @@
+$TTL 604800
+@ IN SOA ns.empresa.com. root.empresa.com. (
+2 ; Serial
+604800 ; Refresh
+86400 ; Retry
+2419200 ; Expire
+604800 ) ; Negative Cache TTL
+;
+@ IN NS ns.
+3 IN PTR ns.empresa.com 
